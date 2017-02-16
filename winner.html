@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Boter Kaas en Eieren</title>
+    <link rel="stylesheet" href="css/winner.css">
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>Game Over</h1>
+    </div>
+    <div class="scores">
+        <h2>Scores</h2>
+    <div id="scorespeler1">
+    </div>
+    <div id="scorespeler2">
+    </div>
+    </div>
+    <div class="playagainbutton">
+        <a class="playagaintext" href="index.html">Play Again</a>
+    </div>
+</div>
+
+
+
+<script>
+    if(typeof(Storage)!=="undefined" && localStorage.scoreplayer1 && localStorage.scoreplayer2)
+    {
+        document.getElementById("scorespeler1").innerHTML="Score Speler 1: " + localStorage.scoreplayer1;
+        document.getElementById("scorespeler2").innerHTML="Score Speler 2: " + localStorage.scoreplayer2;
+    }
+</script>
+</body>
+</html>

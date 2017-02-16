@@ -1,0 +1,22 @@
+body {
+    background: url("../img/background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.header {
+    font-family: "Agency FB";
+    text-align: center;
+    font-size: 400%;
+}
+
+.playagainbutton {
+    text-align: center;
+}
+
+.playagaintext {
+    padding: 0.5%;
+    background-color: rgba(0,0,0,0.3);
+    font-family: "Agency FB";
+    font-size: 180%;
+}
